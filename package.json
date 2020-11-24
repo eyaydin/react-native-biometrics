@@ -24,16 +24,16 @@
     "touch-id",
     "face-id"
   ],
-  "homepage": "https://github.com/SelfLender/react-native-biometrics",
+  "homepage": "https://github.com/eyaydin/react-native-biometrics",
   "contributors": [],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SelfLender/react-native-biometrics.git"
+    "url": "git+https://github.com/eyaydin/react-native-biometrics.git"
   },
   "private": false,
   "author": {
     "name": "Brandon Hines",
-    "url": "https://github.com/NappyPirate"
+    "url": ""
   },
   "license": "MIT",
   "peerDependencies": {
