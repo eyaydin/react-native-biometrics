@@ -44,7 +44,7 @@ RCT_EXPORT_METHOD(createKeys: (RCTPromiseResolveBlock)resolve rejecter:(RCTPromi
 
     SecAccessControlRef sacObject = SecAccessControlCreateWithFlags(kCFAllocatorDefault,
                                                                     kSecAttrAccessibleWhenPasscodeSetThisDeviceOnly,
-                                                                    kSecAccessControlBiometryAny, &error);
+                                                                    kSecAccessControlBiometryCurrentSet, &error);
     if (sacObject == NULL || error != NULL) {
       NSString *errorString = [NSString stringWithFormat:@"SecItemAdd can't create sacObject: %@", error];
       reject(@"storage_error", errorString, nil);
