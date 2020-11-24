@@ -37,7 +37,7 @@
   },
   "license": "MIT",
   "peerDependencies": {
-    "react-native": ">=0.60.0"
+    "react-native": ">=0.59.10"
   },
   "bugs": {
     "url": "https://github.com/SelfLender/react-native-biometrics/issues"
