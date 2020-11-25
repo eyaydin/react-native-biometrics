@@ -1,8 +1,8 @@
 {
-  "name": "react-native-biometrics",
+  "name": "react-native-biometrics-ea",
   "version": "2.1.4",
-  "summary": "A React Native library for biometrics",
-  "description": "React Native biometric functionality for signing and encryption",
+  "summary": "A React Native library for biometrics (fork of https://github.com/SelfLender/react-native-biometrics)",
+  "description": "React Native biometric functionality for signing and encryption. Supports deactivation of encryption on domain-state change (fork of https://github.com/SelfLender/react-native-biometrics)",
   "main": "build/cjs/index.js",
   "module": "build/esm/index.js",
   "types": "build/esm/index.d.ts",
@@ -32,7 +32,7 @@
   },
   "private": false,
   "author": {
-    "name": "Brandon Hines",
+    "name": "EA (original author: Brandon Hines)",
     "url": ""
   },
   "license": "MIT",

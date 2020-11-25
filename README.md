@@ -1,5 +1,6 @@
 
 # react-native-biometrics
+## This is a fork of https://github.com/SelfLender/react-native-biometrics that supports deactivation of stored keys on domain-state changes.
 
 React native biometrics is a simple bridge to native iOS and Android keystore management.  It allows you to create public private key pairs that are stored in native keystores and protected by biometric authentication.  Those keys can then be retrieved later, after proper authentication, and used to create a cryptographic signature.
 
